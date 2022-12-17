@@ -14,7 +14,7 @@ const Reading = () => {
             <h1 className="title__text">Czytelnia</h1>
           </div>
           <div className="download">
-            <Link
+            <a
               className="download__link"
               to="https://drive.google.com/file/d/15n_F0H8ZnWCqX2qHWz17tWfaWPO-ME8j/view?usp=share_link"
               target="_blank"
@@ -22,7 +22,7 @@ const Reading = () => {
             >
               <TbFileDownload className="download__icon" />
               <h2 className="download__text">Narodowy Socjalizm</h2>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
