@@ -1,0 +1,51 @@
+.reading__container {
+  margin-top: 5rem;
+  width: 100vw;
+  height: calc(100vh - 5rem);
+  position: relative;
+  background-image: url(../assets/images/orzel.jpg);
+  background-position: center -5rem;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+}
+.download {
+  display: flex;
+  color: white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: transparent;
+}
+.download:hover {
+  border: 1px solid red;
+  border-radius: 20px;
+  transition: all 0.4s;
+  background-color: #fff;
+}
+.download:hover .download__text {
+  color: red;
+  transition: all 0.4s;
+}
+.download:hover .download__icon {
+  color: red;
+  transition: all 0.4s;
+}
+.download__link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+}
+.download__icon {
+  font-size: 3rem;
+  color: gold;
+  transition: all 0.4s;
+}
+.download__text {
+  color: white;
+  transition: all 0.4s;
+}
