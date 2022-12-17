@@ -16,7 +16,7 @@ const Reading = () => {
           <div className="download">
             <a
               className="download__link"
-              to="https://drive.google.com/file/d/15n_F0H8ZnWCqX2qHWz17tWfaWPO-ME8j/view?usp=share_link"
+              href="https://drive.google.com/file/d/15n_F0H8ZnWCqX2qHWz17tWfaWPO-ME8j/view?usp=share_link"
               target="_blank"
               download
             >
