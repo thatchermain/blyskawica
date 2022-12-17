@@ -3,12 +3,13 @@
 .news__container {
   margin-top: 5rem;
   width: 100vw;
-  height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5rem);
   position: relative;
   background-image: url(../assets/images/orzel.jpg);
-  background-position: center -5rem;
+  background-position: center 0rem;
   /* background-size: contain; */
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .overlay {
   z-index: 0;

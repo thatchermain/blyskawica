@@ -20,9 +20,9 @@ const Navbar = () => {
             <img src={Logo} alt="Błyskawica" onClick={() => setIsOpen(false)} />
           </Link>
         </div>
-        <div className="navbar__banner">
+        <Link to="/" className="navbar__banner">
           <img src={Banner} alt="Błyskawica" />
-        </div>
+        </Link>
         <ul className={`${isOpen ? "show__mobileMenu" : ""} navbar__links`}>
           <NavLink
             to="/aktualnosci"
