@@ -16,9 +16,9 @@ const Reading = () => {
           <div className="download">
             <a
               className="download__link"
-              href="../assets/documents/Narodowy Socjalizm A.D..pdf"
+              href="documents/Narodowy Socjalizm A.D..pdf"
               target="_blank"
-              download
+              download="Narodowy Socjalizm A.D..pdf"
             >
               <TbFileDownload className="download__icon" />
               <h2 className="download__text">Narodowy Socjalizm</h2>
