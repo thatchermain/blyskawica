@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Reading.css";
 import { Link } from "react-router-dom";
-import Narodowy from "../assets/documents/Narodowy Socjalizm A.D..pdf";
+
 import { TbFileDownload } from "react-icons/tb";
 
 const Reading = () => {
@@ -16,7 +16,7 @@ const Reading = () => {
           <div className="download">
             <Link
               className="download__link"
-              to={Narodowy}
+              to="https://drive.google.com/file/d/15n_F0H8ZnWCqX2qHWz17tWfaWPO-ME8j/view?usp=share_link"
               target="_blank"
               download
             >
