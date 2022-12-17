@@ -16,7 +16,7 @@ const Reading = () => {
           <div className="download">
             <a
               className="download__link"
-              href="/build/static/media/Narodowy Socjalizm A.D..5ed07f94b0498e295694.pdf"
+              href="../assets/documents/Narodowy Socjalizm A.D..pdf"
               target="_blank"
               download
             >
