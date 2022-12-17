@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
 import Logo from "../assets/images/logo.jpg";
+import Banner from "../assets/images/baner.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { HiOutlineBarsArrowDown } from "react-icons/hi2";
 import { HiOutlineBarsArrowUp } from "react-icons/hi2";
@@ -18,6 +19,9 @@ const Navbar = () => {
           <Link to="/">
             <img src={Logo} alt="Błyskawica" onClick={() => setIsOpen(false)} />
           </Link>
+        </div>
+        <div className="navbar__banner">
+          <img src={Banner} alt="Błyskawica" />
         </div>
         <ul className={`${isOpen ? "show__mobileMenu" : ""} navbar__links`}>
           <NavLink

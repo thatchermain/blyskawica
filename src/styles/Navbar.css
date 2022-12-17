@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   cursor: pointer;
   display: flex;
@@ -23,6 +24,9 @@
 }
 .logo img {
   height: 3rem;
+}
+.navbar__banner img {
+  display: none;
 }
 .navbar__links {
   position: relative;
@@ -100,4 +104,20 @@
 }
 .active {
   color: gold;
+}
+@media screen and (max-width: 700px) {
+  .navbar__banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+  }
+  .navbar__banner img {
+    display: block;
+    height: 4rem;
+  }
+  .logo img {
+    display: none;
+  }
 }
